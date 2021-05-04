@@ -4,6 +4,7 @@ import Logo from './logo.svg'
 import Counter from './Components/Counter.tsx'
 
 function App() {
+  const name = 'Sravan'
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>
@@ -13,6 +14,7 @@ function App() {
           {process.env.NODE_ENV}
         </strong> of{' '}
         <strong style={{ color: 'violet' }}>{process.env.title}</strong>
+        {name}
       </h1>
       <Counter />
       <div className="header">
